@@ -1,0 +1,10 @@
+small {
+	color: red;
+	display: none;
+}
+.mx_form_inv .mx_empty_filed ~ small {
+	display: block;
+}
+.mx_form_inv .mx_recaptcha_failed small {
+	display: block;
+}
